@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : Siti Waliatul Wafiyah"
+            android:textSize="19sp" >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas : TIK21"
+            android:textSize="19sp" ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM : 202111021"
+            android:textSize="19sp" ></TextView>
+
+        <!-- Soal 1 -->
+        <TextView
+            android:id="@+id/soal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Jelaskan perkembangan android dari masa ke masa?"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/jawaban1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawaban: 1. Android 1.0 - 1.1 (2008-2009)  2. Cupcake, Donut, Éclair: Android 1.5 - 2.1 (2009-2010)  3. Froyo dan Gingerbread: Android 2.2 - 2.3 (2010-2011)  4. Honeycomb: Android 3.x (2011)   5. Ice Cream Sandwich dan Jelly Bean: Android 4.0 - 4.3 (2011-2013) 6. KitKat dan Lollipop: Android 4.4 - 5.x (2013-2015)7. Marshmallow dan Nougat: Android 6.0 - 7.x (2015-2017)8. Oreo: Android 8.x (2017-2018)9. Pie: Android 9 (2018-2019)10. Android 10 dan 11 (2019-2021).11. Android 12 dan 13 (2021-2022)12. Android 14 (2023)"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+
+
+        <!-- Soal 2 -->
+        <TextView
+            android:id="@+id/soal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Sebutkan Tools yang disediakan oleh SDK android?"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/jawaban2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawaban: 1. Android Studio  2. Android Emulator  3. ADB (Android Debug Bridge)  4. SDK Manager  5. AVD Manager (Android Virtual Device Manager)  6. DDMS (Dalvik Debug Monitor Server)  7. Lint  8. ProGuard  9. Layout Inspector  10. Hierarchy Viewer  11. Traceview  12. APK Analyzer  13. Systrace  14. Monkeyrunner  15. JobScheduler"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <!-- Soal 3 -->
+        <TextView
+            android:id="@+id/soal3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.jelaskan pendapat anda mengenai perbedaan antara satuan unit dp dan juga sp pada android"
+            android:textSize="18sp"
+            android:layout_marginTop="9dp" />
+
+        <TextView
+            android:id="@+id/jawaban3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawaban: -Dp : untuk menentukan ukuran elemen UI seperti tombol, margin, padding, dan ukuran gambar untuk memastikan konsistensi di berbagai perangkat.
+-Sp:  untuk ukuran teks untuk memastikan teks tetap dapat dibaca dan sesuai dengan preferensi ukuran font yang diatur oleh pengguna.
+"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <!-- Soal 4 -->
+        <TextView
+            android:id="@+id/soal4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Apa yang dimaskud dengan activity dan intent pada android"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/jawaban4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawaban:  -Activity` adalah komponen dasar dalam aplikasi Android yang mewakili satu layar atau tampilan pengguna. Setiap `Activity` berisi antarmuka pengguna (UI) dan logika untuk berinteraksi dengan pengguna.
+-Intent` adalah objek yang digunakan untuk berkomunikasi antara komponen aplikasi. `Intent` dapat digunakan untuk memulai `Activity`, memanggil layanan (Service), atau mengirim broadcast.
+"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <!-- Soal 5 -->
+        <TextView
+            android:id="@+id/soal5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.	menurut anda apa saja yang perlu diperhatikan oleh seorang desainer saat ingin merancang desain aplikasi mobile"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/jawaban5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawaban: 1.	Kebutuhan Pengguna
+2.	Navigasi dan Struktur
+3.	Desain Visual
+4.	Keterbacaan dan Tipografi
+5.	Interaksi dan Feedback
+6.	Kinerja dan Kecepatan
+7.	Aksesibilitas
+8.	Platform dan Pedoman Desain
+9.	Keamanan dan Privasi
+10.	Adaptasi dan Iterasi
+"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
